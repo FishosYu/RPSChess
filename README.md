@@ -1,6 +1,6 @@
 # RPSChess
 
-Standalone clickable web copy of the PixiJS version from `pixijs-2d/`.
+单人可玩的人机小游戏：石头剪刀布版回合制简易象棋！规则简单易上手，3分钟之内就能完成一局。
 
 ## Run
 
