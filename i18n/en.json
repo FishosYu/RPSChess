@@ -1,0 +1,117 @@
+{
+  "game": {
+    "title": "RPS CHESS",
+    "subtitle": "Ace vs Ace",
+    "guideHint": "Choose three pieces to deploy; mark one as your ace.\nPick one of the remaining pieces to decide who moves first.\nGood luck—topple the opponent's ace to win!",
+    "loading": "Loading game..."
+  },
+  "loading": {
+    "game": "Loading RPS CHESS…",
+    "default": "Loading...",
+    "progress1": "Loading.",
+    "progress2": "Loading..",
+    "start": "Loading",
+    "failed": "Failed to load",
+    "openConsole": "Open the browser console (F12) for details"
+  },
+  "common": {
+    "listSep": ", ",
+    "ace": "Ace"
+  },
+  "piece": {
+    "rock": { "name": "Rock" },
+    "scissors": { "name": "Scissors" },
+    "paper": { "name": "Paper" }
+  },
+  "player": {
+    "you": "You",
+    "ai": "AI"
+  },
+  "ace": {
+    "yours": "Your ace: {{piece}}",
+    "yoursEmpty": "Your ace: —",
+    "enemy": "Opponent's ace: {{piece}}",
+    "enemyHidden": "Opponent's ace: ?"
+  },
+  "status": {
+    "setup": {
+      "initial": "Deploy: tap to select / mark ace / deselect",
+      "selected": "Deploy: {{count}}/3 selected"
+    },
+    "pregame": {
+      "pick": "First move: pick 1 of your 3 reserve pieces",
+      "ready": "Piece chosen—tap Reveal Both",
+      "revealing": "Revealing…",
+      "tieRetry": "Tie—pick again"
+    },
+    "play": {
+      "yourTurn": "Your turn",
+      "yourTurnMove": "Your turn — tap a destination",
+      "yourTurnSelect": "Your turn — tap your piece, then a square",
+      "aiThinking": "AI is thinking…"
+    },
+    "stalemate": {
+      "pending": "All pieces share one type—a draw is coming…"
+    },
+    "end": {
+      "draw": "Draw",
+      "won": "You win!",
+      "lost": "AI wins"
+    }
+  },
+  "action": {
+    "confirmSetup": "Confirm deploy",
+    "revealPregame": "Reveal both"
+  },
+  "hand": {
+    "setupTitle": "Pick 3 pieces (tap: select / ace / deselect)",
+    "pregameTitle": "First move: pick 1 piece"
+  },
+  "ui": {
+    "restart": "Restart",
+    "battleLog": "Battle log",
+    "legend": "Rock > Scissors · Scissors > Paper · Paper > Rock\nRegular: 4-dir · Ace: 8-dir · Duel reveals ace · Pieces: Rock/Scissors/Paper x4",
+    "poolInfo": "",
+    "graveYours": "Your eliminated",
+    "graveEnemy": "Opponent eliminated",
+    "pregameVs": "vs",
+    "playAgain": "Play again",
+    "playMoveHint": "Tap your piece, then tap a highlighted square to move",
+    "aceMark": "A"
+  },
+  "endModal": {
+    "wonTitle": "Victory!",
+    "wonBody": "You defeated the AI's ace.",
+    "lostTitle": "Defeat",
+    "lostBody": "Your ace was destroyed!",
+    "drawTitle": "Draw",
+    "drawBody": "Both sides only have one piece type left—no winner."
+  },
+  "log": {
+    "dealDone": "Deal complete. Your hand: {{hand}}",
+    "youDeploy": "You deployed: {{left}} · Ace · {{right}}",
+    "aiDeploy": "AI deployed ({{left}} · Ace · {{right}})",
+    "pregameReveal": "First move: you {{youPiece}}, AI {{aiPiece}}",
+    "youWinInitiative": "You go first!",
+    "aiWinInitiative": "AI goes first",
+    "pregameTie": "Tie—draw again…",
+    "enemyAceKnown": "Opponent's ace revealed: {{piece}}",
+    "aiNoMoves": "AI has no legal moves—pass",
+    "duel": "Duel! {{attacker}}'s {{attackerPiece}} vs {{defender}}'s ace",
+    "duelPass": "Same type—move cancelled, turn passes",
+    "pieceLostToAce": "{{owner}}'s {{piece}} was beaten by the ace",
+    "stalemateField": "Stalemate: all pieces are {{piece}}—draw incoming",
+    "stalemateEnd": "Draw—no winner possible"
+  },
+  "duel": {
+    "banner": "DUEL!",
+    "resultWin": "Duel won!",
+    "resultPass": "Same type—no effect",
+    "resultLose": "Beaten by the ace!"
+  },
+  "ai": {
+    "duel": "AI initiates a duel ({{piece}})",
+    "capture": "AI attacks {{piece}}",
+    "move": "AI repositions"
+  }
+}

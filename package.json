@@ -1,0 +1,19 @@
+{
+  "name": "rpschess",
+  "version": "1.0.0",
+  "description": "Standalone web build of RPS CHESS from pixijs-2d",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit -p tsconfig.json && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pixi.js": "^8.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.0",
+    "typescript": "5.7.2",
+    "vite": "7.3.1"
+  }
+}

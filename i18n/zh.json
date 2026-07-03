@@ -1,0 +1,117 @@
+{
+  "game": {
+    "title": "拳力的游戏",
+    "subtitle": "王牌对王牌",
+    "guideHint": "选择三枚棋子出战，选其中一个作为王牌；\n选择一枚剩下的棋子来决定先后手。\n加油，推翻对方的王牌以获得胜利！",
+    "loading": "加载游戏中..."
+  },
+  "loading": {
+    "game": "加载拳力的游戏…",
+    "default": "加载中...",
+    "progress1": "加载中.",
+    "progress2": "加载中..",
+    "start": "加载中",
+    "failed": "加载失败",
+    "openConsole": "请打开浏览器控制台 (F12) 查看详情"
+  },
+  "common": {
+    "listSep": "、",
+    "ace": "王牌"
+  },
+  "piece": {
+    "rock": { "name": "石头" },
+    "scissors": { "name": "剪刀" },
+    "paper": { "name": "布" }
+  },
+  "player": {
+    "you": "你",
+    "ai": "AI"
+  },
+  "ace": {
+    "yours": "你的王牌：{{piece}}",
+    "yoursEmpty": "你的王牌：—",
+    "enemy": "对方王牌：{{piece}}",
+    "enemyHidden": "对方王牌：？"
+  },
+  "status": {
+    "setup": {
+      "initial": "布阵：点击 1 次选中 / 2 次王牌 / 3 次取消",
+      "selected": "布阵：已选 {{count}}/3"
+    },
+    "pregame": {
+      "pick": "先手裁定：从剩余 3 枚中选 1 枚",
+      "ready": "已选先手棋子，点击「同时亮牌」",
+      "revealing": "同时亮牌…",
+      "tieRetry": "平局，请重新选择一枚"
+    },
+    "play": {
+      "yourTurn": "你的回合",
+      "yourTurnMove": "你的回合 — 点击目标格移动",
+      "yourTurnSelect": "你的回合 — 点击己方棋子，再点击目标格",
+      "aiThinking": "AI 思考中…"
+    },
+    "stalemate": {
+      "pending": "双方棋子同型，即将平局…"
+    },
+    "end": {
+      "draw": "平局",
+      "won": "你赢了！",
+      "lost": "AI 获胜"
+    }
+  },
+  "action": {
+    "confirmSetup": "确认布阵",
+    "revealPregame": "同时亮牌"
+  },
+  "hand": {
+    "setupTitle": "选手牌 3 枚（点 1 次选中 / 2 次王牌 / 3 次取消）",
+    "pregameTitle": "先手裁定：选 1 枚"
+  },
+  "ui": {
+    "restart": "重新开始",
+    "battleLog": "战报",
+    "legend": "石头✊克剪刀✌️·剪刀克布✋·布克石头\n普通子四向·王牌八向·决斗翻开王牌·全部棋子种类：石头/剪刀/布各4个",
+    "poolInfo": "",
+    "graveYours": "你的出局",
+    "graveEnemy": "对方出局",
+    "pregameVs": "先手",
+    "playAgain": "再来一局",
+    "playMoveHint": "点击棋子后，再点击可移动的格子完成移动",
+    "aceMark": "王"
+  },
+  "endModal": {
+    "wonTitle": "胜利！",
+    "wonBody": "你击破了 AI 的王牌。",
+    "lostTitle": "失败",
+    "lostBody": "你的王牌被击破了！",
+    "drawTitle": "平局",
+    "drawBody": "双方剩余棋子均为同一类型，无法决出胜负。"
+  },
+  "log": {
+    "dealDone": "发牌完成。你的手牌：{{hand}}",
+    "youDeploy": "你布阵：{{left}} · 王牌 · {{right}}",
+    "aiDeploy": "AI 完成布阵（{{left}}·王牌·{{right}}）",
+    "pregameReveal": "先手裁定：你出 {{youPiece}}，AI 出 {{aiPiece}}",
+    "youWinInitiative": "你赢得先手！",
+    "aiWinInitiative": "AI 赢得先手",
+    "pregameTie": "平局，重抽…",
+    "enemyAceKnown": "得知对方王牌：{{piece}}",
+    "aiNoMoves": "AI 无合法移动，跳过",
+    "duel": "决斗！{{attacker}}的{{attackerPiece}} 对战 {{defender}}的王牌",
+    "duelPass": "同型对决，移动无效，换手",
+    "pieceLostToAce": "{{owner}}的{{piece}} 被王牌克制出局",
+    "stalemateField": "僵局：场上均为{{piece}}，无法克制，即将平局",
+    "stalemateEnd": "平局 — 无法决出胜负"
+  },
+  "duel": {
+    "banner": "发起决斗！",
+    "resultWin": "决斗胜利！",
+    "resultPass": "同型对决，无效",
+    "resultLose": "被王牌克制！"
+  },
+  "ai": {
+    "duel": "AI 发动决斗（{{piece}}）",
+    "capture": "AI 进攻 {{piece}}",
+    "move": "AI 调动阵型"
+  }
+}
